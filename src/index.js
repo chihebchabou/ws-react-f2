@@ -2,7 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+// import { fullName, age } from './App';
+
+// Import bootstarap
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import reportWebVitals from './reportWebVitals';
+
+// console.log(fullName, age);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
